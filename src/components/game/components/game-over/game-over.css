@@ -1,0 +1,39 @@
+.gameOverRoot{
+    background-color: #404040;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.gameOverRoot > div{
+    margin-top: 10px;
+}
+
+.scoreTitle{
+    font-size: 280%;
+    font-weight: bold;
+}
+
+.highscoreTitle{
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: -15px !important;
+}
+
+.gameOverButtonsRow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gameOverButtonsRow button{
+    font-size: 150%;
+    font-weight: bold;
+    padding: 0 10px;
+    text-transform: uppercase;
+}

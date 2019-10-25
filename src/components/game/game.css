@@ -1,0 +1,13 @@
+/* .App{
+  margin: 0 auto;
+  max-width: 600px;
+} */
+
+.fieldRoot{
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.row{
+  display: flex;
+}

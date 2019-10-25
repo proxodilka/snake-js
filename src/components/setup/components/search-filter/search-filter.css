@@ -1,0 +1,22 @@
+.SF-buttonsContainer{
+    flex-shrink: 0;
+    display: flex;
+}
+
+.SF-buttonsContainer .btn{
+    border-radius: 0px;
+    flex-basis: 100%;
+    padding: 0;
+}
+
+.SF-buttonsContainer .btn+.btn{
+    border-left: 0px;
+}
+
+.SF-buttonsContainer .first{
+    border-radius: 4px 0 0 4px;
+}
+
+.SF-buttonsContainer .last{
+    border-radius: 0 4px 4px 0;
+}

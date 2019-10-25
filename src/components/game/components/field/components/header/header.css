@@ -1,0 +1,16 @@
+.headerRoot{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+}
+
+.statusRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    font-size: 150%;
+}
